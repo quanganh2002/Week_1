@@ -131,8 +131,3 @@ Tìm và in ra vị trí đầu tiên và cuổi dùng của _target_ trong dãy
 def find_number(arr, target):
     return binary_search_first(arr, target), binary_search_last(arr, target)
 ```
-
-4. nums = \[5,6,7,8,8,8,8,10,12,15\]  
-5. target = 8  
-
-7. **print**(find_number(nums, target))
