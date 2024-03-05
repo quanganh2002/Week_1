@@ -73,7 +73,7 @@ Cho trước dãy số tăng dần có _n_ phần tử và giá trị _target:_
 
 - Gán _low = 0, high = n – 1_, _result = - 1_
 - Ta tìm giá trị trung vị _med_ tại vị trí _mid =_ (_low + high_)/2 của dãy và so sánh với _target:_
-  - - Nếu _med = target_: Gán ­_result = mid, high = mid – 1_ và tiếp tục thuật toán
+  - Nếu _med = target_: Gán ­_result = mid, high = mid – 1_ và tiếp tục thuật toán
       - Nếu _med < target_: tiếp tục thuật toán với _low = mid +_ 1
       - Nếu _med > target_: tiếp tục thuật toán với _high = mid –_ 1
       - Nếu _low = high_: kết thúc vòng lặp
@@ -83,7 +83,7 @@ Cho trước dãy số tăng dần có _n_ phần tử và giá trị _target:_
 
 - Gán _low = 0, high = n – 1_, _result = - 1_
 - Ta tìm giá trị trung vị _med_ tại vị trí _mid =_ (_low + high_)/2 của dãy và so sánh với _target:_
-  - - Nếu _med = target_: Gán ­_result = mid, low = mid + 1_ và tiếp tục thuật toán
+  -  Nếu _med = target_: Gán ­_result = mid, low = mid + 1_ và tiếp tục thuật toán
       - Nếu _med < target_: tiếp tục thuật toán với _low = mid +_ 1
       - Nếu _med > target_: tiếp tục thuật toán với _high = mid –_ 1
       - Nếu _low = high_: kết thúc vòng lặp
