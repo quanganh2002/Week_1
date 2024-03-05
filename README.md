@@ -20,30 +20,16 @@ Cho trước dãy số tăng dần có _n_ phần tử, tìm giá trị _target_
 ## Giải quyết bài toán
 
 
-```
-1.	def binary_search(arr, target):  
-2.	    low, high = 0, len(arr) - 1  
-3.	    while low <= high:  
-4.	        mid = (low + high) // 2  
-5.	        if arr[mid] == target:  
-6.	            return True  
-7.	        elif arr[mid] < target:  
-8.	            low = mid + 1  
-9.	        else:  
-10.	            high = mid - 1  
-11.	    return False 
 
-```
 Hàm tìm kiếm nhị phân: trả về _True_ nếu tìm thấy _target_ trong mảng _arr_
-
-1. **def** intersection(arr1, arr2):  
-2.     itst = \[\]  
-3.     **for** i **in** arr1:  
-4.         **if** binary_search(arr2, i):  
-5.             itst.append(i)  
-6.     **return** itst  
+```
+def binary_search(arr, target):  
+```
 
 Hàm tìm giao của 2 mảng _arr1_ và _arr2:_
+```
+intersection(arr1, arr2)  
+```
 
 - Khởi tạo một mảng trống _itst_
 - Lặp từng phần tử _i_ trong mảng _arr1_: Dùng tìm kiếm nhị phân tỉm kiếm _i_ trong _arr2_, nếu _i_ có trong _arr2_ thì thêm _i_ vào _itst_
