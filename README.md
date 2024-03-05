@@ -39,9 +39,11 @@ intersection(arr1, arr2)
 
 ## Biểu thức chính quy RegEx
 
-Biểu thức: _^(http|https):\\/\\/(www\\.)?\[a-zA-Z0-9\]+(\\.\[a-z\]{2,6})\[^\\s\]\*$_
-
-- _^(http|https):\\/\\/_ : bắt đầu bằng _http_ hoặc _https_ và _://_
+Biểu thức: 
+```
+_^(http|https):\\/\\/(www\\.)?\[a-zA-Z0-9\]+(\\.\[a-z\]{2,6})\[^\\s\]\*$_
+```
+- ``` _^(http|https):\\/\\/(www\\.)?\[a-zA-Z0-9\]+(\\.\[a-z\]{2,6})\[^\\s\]\*$_ ``` : bắt đầu bằng _http_ hoặc _https_ và _://_
 - _(www\\.)?_ : có thể chứa _www_ hoặc không
 - _\[a-zA-Z0-9\]+(\\.\[a-z\]{2,6})_ : Tên miền của url chỉ chứa các ký tự la tinh hoa/thường từ a-z và chữ số và theo sau là phần domain là các kí tự thường có độ dài từ 2 – 6
 - _\[^\\s\]\*$_ : phần path không chứa dấu cách và kết thúc
