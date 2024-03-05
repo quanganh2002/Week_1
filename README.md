@@ -1,9 +1,3 @@
-**Báo cáo Tuần 1**
-
-**Nguyễn Hoàng Quang Anh**
-
-Người hướng dẫn: **Ngô Văn Vĩ**
-
 # **Bài 1:**
 
 ## Tìm kiếm nhị phân
