@@ -21,17 +21,18 @@ Cho trước dãy số tăng dần có _n_ phần tử, tìm giá trị _target_
 
 
 ```
-pip3 install torch
-pip3 install transformers
-pip3 install seqeval
-pip3 install pytorch-crf
-pip3 install tensorflow
-pip3 install sentencepiece
-pip3 install tensorboard
-pip3 install numpy
-pip3 install tqdm
-pip3 install pydrive
-pip3 install scikit-learn
+1.	def binary_search(arr, target):  
+2.	    low, high = 0, len(arr) - 1  
+3.	    while low <= high:  
+4.	        mid = (low + high) // 2  
+5.	        if arr[mid] == target:  
+6.	            return True  
+7.	        elif arr[mid] < target:  
+8.	            low = mid + 1  
+9.	        else:  
+10.	            high = mid - 1  
+11.	    return False 
+
 ```
 Hàm tìm kiếm nhị phân: trả về _True_ nếu tìm thấy _target_ trong mảng _arr_
 
